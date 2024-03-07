@@ -1,0 +1,72 @@
+body{
+    background-color: orange;
+}
+
+.tab{
+    background-color: black;
+    width: 30%;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow:4px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 20px rgba(0, 0, 0, 0.19);
+    color:white;
+    height: fit-content;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.emoji{
+    font-size:100px;
+    margin:0;
+    text-align:center;
+}
+
+.text{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    opacity:0;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    width: 100%;
+}
+
+button{
+    padding:20px;
+    font-weight:bold;
+    background-color:orange;
+    color: black;
+    border:none;
+    border-radius:10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 17px;
+    margin-top: 15px;
+
+}
+
+button:hover{
+    transform:scale(1.02);
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(1); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
